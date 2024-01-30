@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.04 281.04">
+
+<defs>
+
+<style>
+  
+.cls-1 {
+fill: #fff;
+  }
+.cls-1,.cls-2 {
+stroke-width: 0px;
+  }
+.cls-2 {
+fill: #231f20;
+  }
+#arrow:hover {
+  animation: point 0.6s ease infinite;
+  transform-origin: center;
+  }
+#arrow:hover #arrow_body {
+  transition: all 0.2s ease;
+  fill:red;
+}
+@keyframes point {
+  50% {margin-left: 20px;}
+  100% {margin-left: -20px;}
+  }
+  
+</style>
+
+</defs>
+
+<circle id="arrow_bc" class="cls-1" cx="140.52" cy="140.52" r="140.52"/>
+
+<polygon id="arrow_body" class="cls-2" points="234.28 140.48 210.74 116.93 210.69 116.97 170.59 76.87 170.59 119.2 46.76 119.2 46.76 161.84 170.59 161.84 170.59 204.17 210.69 164.07 210.74 164.11 234.28 140.56 234.24 140.52 234.28 140.48"/>
+
+</svg>
