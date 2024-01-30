@@ -35,6 +35,17 @@
 }
 </style>
 
+<script>
+    const vectorGraphic = document.querySelector('#star');
+        
+    function logThisId() {
+        console.log(this);
+        console.log('Twinkle twinkle little star!');
+        }
+        
+    vectorGraphic.addEventListener('click', logThisId);
+</script>
+
 </defs>
 
 <circle id="star_bc" class="cls-2" cx="140.52128" cy="140.52128" r="140.52128"/>

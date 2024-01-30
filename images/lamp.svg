@@ -24,6 +24,17 @@
 
 </style>
 
+<script>
+    const vectorGraphic = document.querySelector('#lamp');
+        
+    function logThisId() {
+        console.log(this);
+        console.log('You turned the switch!');
+        }
+        
+    vectorGraphic.addEventListener('click', logThisId);
+</script>
+
 </defs>
 
 <circle id="lamp_bc" class="cls-1" cx="140.52128" cy="140.52128" r="140.52128"/>
