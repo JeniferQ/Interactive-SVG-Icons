@@ -2,6 +2,8 @@
 
 **Objective :** The objective of this project is to showcase the different ways of animating SVGs, as well as using JS console log messages to indicate that the user has clicked an icon.
 
+![Icons](images/SVGs.png)
+
 ## Installation
 No installation required
 
