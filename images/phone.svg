@@ -25,6 +25,17 @@
 
 </style>
 
+<script>
+    const vectorGraphic = document.querySelector('#phone');
+        
+    function logThisId() {
+        console.log(this);
+        console.log('Someone is calling you!');
+        }
+        
+    vectorGraphic.addEventListener('click', logThisId);
+</script>
+
 </defs>
 
 <circle id="phone_bc" class="cls-2" cx="140.52128" cy="140.52128" r="140.52128"/>

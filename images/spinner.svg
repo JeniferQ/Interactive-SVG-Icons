@@ -30,6 +30,17 @@
     }
 </style>
 
+<script>
+    const vectorGraphic = document.querySelector('#spinner');
+        
+    function logThisId() {
+        console.log(this);
+        console.log('You completed a spin!');
+        }
+        
+    vectorGraphic.addEventListener('click', logThisId);
+</script>
+
 </defs>
 
 <g id="spin">
