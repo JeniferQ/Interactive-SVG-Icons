@@ -1,0 +1,8 @@
+.hidden {
+    display: none;
+}
+
+div {
+    padding: 5px;
+    display: inline;
+}
